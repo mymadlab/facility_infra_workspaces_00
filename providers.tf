@@ -2,7 +2,7 @@ terraform {
   cloud {
     organization = "mymadlab"
     workspaces {
-      tags = ["facility", "infra", "facility_infra_workspaces"]
+      tags = ["facility", "infra", "facility_infra_workspaces_00"]
     }
   }
 
