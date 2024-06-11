@@ -9,9 +9,3 @@ module "facility_infra_core" {
   vcs_provider_name = var.vcs_provider_name
   tags              = ["facility", "infra"]
 }
-
-
-import {
-  to = module.facility_infra_core.module.github_repository_manager.github_branch_protection.main
-  id = "facility_infra_core:main"
-}
