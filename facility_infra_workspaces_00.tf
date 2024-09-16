@@ -1,6 +1,6 @@
 module "facility_infra_workspaces_00" {
   source  = "app.terraform.io/mymadlab/mml_workspace_builder/tfe"
-  version = "~>0.3.0"
+  version = "~>0.4.0"
 
   name              = "facility_infra_workspaces_00"
   description       = "Create and manage TFE workspaces with repos"
