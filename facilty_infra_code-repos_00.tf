@@ -1,6 +1,6 @@
 module "facility_code_git-repo_00" {
   source  = "app.terraform.io/mymadlab/mml_workspace_builder/tfe"
-  version = "~>0.3.0"
+  version = "~>0.4.0"
 
   name              = "facility_code_git-repos_00"
   description       = "Create standalone git repos for code."
